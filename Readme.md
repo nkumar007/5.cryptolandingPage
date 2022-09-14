@@ -19,4 +19,4 @@
 
 ## Live Link
 
-[Netlify]()
+[Netlify](https://cryptotechhome.netlify.app/)
