@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  background-image: url(./assets/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.container {
+  height: 110vh;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: black;
+}
+
+.list .list-item {
+  list-style-type: none;
+  display: inline-block;
+  margin: auto 20px;
+  color: #ffff;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.list .list-item .drop {
+  position: relative;
+  top: 8px;
+  font-size: 20px;
+}
+
+.navbar .grow-list {
+  position: absolute;
+  left: 220px;
+}
+.navbar .button-small {
+  border: 0;
+  outline: 0;
+  background-color: #ff00ffce;
+  padding: 0.6rem 1.8rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffff;
+  cursor: pointer;
+}
+
+.navbar .logo {
+  width: 100px;
+  cursor: pointer;
+  border-right: 1px solid #fff;
+  padding-right: 45px;
+}
+
+/* Hero section styling */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+.hero .hero-heading {
+  max-width: 730px;
+  line-height: 1;
+  font-size: 4.2rem;
+  color: #ffff;
+}
+
+.hero .hero-heading::before {
+  content: "\00a0 ";
+}
+
+.hero .hero-description {
+  margin-top: -3rem;
+  color: #ffff;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.hero .button-large {
+  outline: 0;
+  border: 0;
+  padding: 0.8rem 1.2rem;
+  background-color: #ff00ffce;
+  color: #ffff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
